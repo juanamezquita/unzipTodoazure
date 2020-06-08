@@ -51,7 +51,7 @@ namespace Icsee.Function
                 }
             }
             catch(Exception ex){
-                log.LogInformation($"Error! Something went wrong: {ex.Message}");
+                log.LogInformation($"Error! Algo salió mal: {ex.Message}");
 
             }
         }
